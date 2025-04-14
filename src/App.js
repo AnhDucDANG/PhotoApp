@@ -2,7 +2,7 @@ import './App.css';
 
 import React from "react";
 import { Grid, Typography, Paper } from "@mui/material";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link  } from "react-router-dom";
 
 import TopBar from "./components/TopBar";
 import UserDetail from "./components/UserDetail";
@@ -25,6 +25,14 @@ const App = (props) => {
             </Grid>
             <Grid item sm={9}>
               <Paper className="main-grid-item">
+
+            <nav style={{margin:10}}>
+              <Link to="/users" style={{padding:5}}>UserList</Link>
+              <Link to="/users/:userId" style={{padding:5}}>UserDetail</Link>
+              <Link to="/photos/:userId" style={{padding:5}}>UserPhotos</Link>
+
+            </nav>
+
                 <Routes>
                   <Route
                       path="/users/:userId"
@@ -35,7 +43,7 @@ const App = (props) => {
                       element = {<UserPhotos />}
                   />
                   {/*<Route path="/users" element={<UserList />} />*/}
-                  <Route path="/" element={<UserList />} />
+                  {/* <Route path="/" element={<UserList />} /> */}
                   
 
                 </Routes>
