@@ -6,6 +6,7 @@ import models from "../../modelData/models";
 
 import "./styles.css";
 
+import UserList from "../UserList";
 /**
  * Define TopBar, a React component of Project 4.
  */
@@ -30,7 +31,7 @@ function TopBar () {
             This is the TopBar component
           </Typography>
 
-         
+          
           
 
         </Toolbar>

@@ -2,7 +2,7 @@ import React from "react";
 import {
   Divider,
   List,
-  ListItem,
+  ListItemButton,
   ListItemText,
   Typography,
 } from "@mui/material";
@@ -37,12 +37,12 @@ function UserList () {
         <List component="nav">
         {users.map((item) => (
           <div key={item._id}>
-            <ListItem button>
+            <ListItemButton>
               {/* Wrap the user's name in a Link component */}
               <Link to={`/users/${item._id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                 <ListItemText primary={`${item.first_name} ${item.last_name}`} />
               </Link>
-            </ListItem>
+            </ListItemButton>
             <Divider />
           </div>
         ))}
