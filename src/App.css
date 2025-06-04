@@ -1,8 +1,15 @@
 .main-topbar-buffer {
   margin-top: 70px;
+  margin-left: auto;
+  margin: auto;
 }
 
 .main-grid-item {
-  height: calc(100vh - 85px);
+  height: calc(100vh - 10px);
   padding: 10px;
+  margin-top: 100px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
+

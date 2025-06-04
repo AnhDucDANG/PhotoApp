@@ -1,0 +1,36 @@
+.user-list-container {
+  padding: 160px;
+  background-color: #fffbfb35;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(192, 79, 8, 0.05);
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.user-list-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #0cab8ee2;
+}
+
+.user-list-item {
+  transition: background-color 0.2s ease;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.user-list-item:hover {
+  background-color: #df0ec3;
+}
+
+.user-list-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.user-divider {
+  margin: 4px 0;
+}

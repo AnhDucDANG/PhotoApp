@@ -1,0 +1,36 @@
+.login-page {
+  min-height: calc(100vh - 64px);
+  background-image: url('https://images.unsplash.com/photo-1746121813274-50f7f8d4bad4?q=80&w=2103&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+.login-box {
+  padding: 32px;
+  max-width: 400px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.92);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+  font-weight: bold;
+  text-align: center;
+  color: #1e3a8a;
+}
+
+.login-button {
+  margin-top: 16px;
+  font-weight: bold;
+  background-color: #1976d2 !important;
+}
+
+.login-button:hover {
+  background-color: #155fa0 !important;
+}

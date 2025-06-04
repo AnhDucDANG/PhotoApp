@@ -1,0 +1,57 @@
+/* styles.css */
+
+.user-list-container {
+  background-color: #f8f8f8;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.user-list-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.user-divider {
+  margin: 4px 0;
+}
+
+.MuiListItemButton-root:hover {
+  background-color: #e0f2f1;
+}
+
+.MuiListItemButton-root.Mui-selected {
+  background-color: #b2dfdb;
+}
+
+.card-photo {
+  margin-bottom: 24px;
+  border: 1px solid #ddd;
+  border-radius: 600px;
+  overflow: hidden;
+}
+.card-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;  /* đảm bảo ảnh không bị crop */
+  margin: 0 auto;
+}
+
+.comment-block {
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.comment-block a {
+  font-weight: bold;
+  color: #00796b;
+  text-decoration: none;
+}
+
+.comment-block a:hover {
+  text-decoration: underline;
+}
