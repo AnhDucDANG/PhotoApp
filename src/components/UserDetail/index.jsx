@@ -21,12 +21,12 @@ function UserDetail() {
   return (
     <>
       <div className="user-detail-container">
-        <Typography variant="body1">
+        {/* <Typography variant="body1">
           This should be the UserDetail view of the PhotoShare app. Since it is
           invoked from React Router the params from the route will be in
           property match. So this should show details of user: {user.userId}.
           You can fetch the model for the user from models.userModel.
-        </Typography>
+        </Typography> */}
         <Typography className="user-detail-title">
           Thông tin chi tiết người dùng: {user.userId}
         </Typography>
